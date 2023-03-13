@@ -6,15 +6,6 @@ This is a frontend capston project given by the Almabetter which is Flashcard Ge
 
 Click on the link to see my flashcard generator website
 
-
-
-
-
-
-## Watch Explanation video on youtube 
-- [video link]()
-
-
 ## Run Locally
 
 Install dependencies
@@ -36,6 +27,7 @@ Start the server
 - TailwindCSS,
 - React-icons,
 - React Formik & Yup,
+- domtoimage
 
 ## About The Project (Flashcard )
 This project is created with mainly Reactjs , In this project mainly we have three pages
@@ -66,13 +58,15 @@ This project is created with mainly Reactjs , In this project mainly we have thr
 - Edit Input box (Button)
 - View cards (Button)
 - Upload Image (Button)
+- Download flashcard as image
 - Share (Copy Clipboard button)
 - Social Media Butoon's ( Working )
 - See all (Button)
 - Back Button
 - close button for closing share page
+
 ## 🛠 Skills
 Javascript, HTML, CSS, ReactJS, Redux
 
 ## Project Created With
-- [Ehsaan Mondal](https://github.com/ehsaanCode)
+- (https://github.com/ehsaanCode)
