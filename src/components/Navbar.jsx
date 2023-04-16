@@ -1,18 +1,19 @@
-/* in this file we are creating the navbar of our website whics contains the routes to  create new  page to create flashcard
+/* in this file we are creating the navbar of our website which contains the routes to create new page to create flashcard
 and the route to myFlashcard page which will display all the flashcard  */
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (props) => { // Here we are passing props to use functionality of dark mode/light mode
   return (
-    <div className="w-full pt-2">
-      <h1 className="text-4xl text-black font-semibold mb-5">
-        Create Flashcard
-      </h1>
+    <div
+      className="w-full pt-2"
+      style={{ color: props.mode === "white" ? "black" : "white" }}
+    >
+      <h1 className="text-4xl font-semibold mb-5">Create Flashcard</h1>
       <div className="flex items-center space-x-10 mb-3">
-        <button className="text-lg font-semibold text-black-600">
+        <button className="text-lg font-semibold">
           <NavLink
-            to={"/"} 
+            to={"/"}
             /*if the link is actve it will give bottom background to create new of red color */
             style={({ isActive }) => ({
               borderBottom: isActive ? "4px solid red" : undefined,
@@ -23,7 +24,7 @@ const Navbar = () => {
             Create New
           </NavLink>
         </button>
-        <button className="text-lg font-semibold text-black-600">
+        <button className="text-lg font-semibold">
           <NavLink
             to={"/myflashcard"}
             /*if the link is actve it will give bottom background to my Flashcard of red color */
