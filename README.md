@@ -31,11 +31,10 @@ Start the server
 
 ## About The Project (Flashcard )
 This project is created with mainly Reactjs , In this project mainly we have three pages
-```bash
 1) create Flashcard page 
 2) My Flashcard page 
 3) Flashcad Details page  with  share page 
-```
+
 - create fashcard page: In create Flashcard page we used a Formik for creating input boxes and for the validation we used Yup
 
 - My Flashcard page: For the My flashcard page we saparately design My Flashcard UI component and did maping the UI and input data in My flashcard
@@ -56,17 +55,22 @@ This project is created with mainly Reactjs , In this project mainly we have thr
 - Add More Input Box (Button)
 - Delete button (Button)
 - Edit Input box (Button)
+- Dark mode
 - View cards (Button)
 - Upload Image (Button)
 - Download flashcard as image
 - Share (Copy Clipboard button)
+- Print as PDF
 - Social Media Butoon's ( Working )
 - See all (Button)
 - Back Button
 - close button for closing share page
 
-## 🛠 Skills
+## Skills
 Javascript, HTML, CSS, ReactJS, Redux
 
 ## Project Created With
 - (https://github.com/ehsaanCode)
+
+## Deployed app
+https://generateflashcard.netlify.app/
